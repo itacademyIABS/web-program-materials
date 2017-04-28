@@ -14,7 +14,7 @@ $all_dirs = get_project_dirs();
 $dirs_without_file = get_dirs_without_file($all_dirs, $file_for_search);
 
 $result_filename = date('H_i_d.m.Y') . '.csv';
-$handler = fopen(RESULTS_DIR . DIRECTORY_SEPARATOR . $result_filename, 'c+');
+$handler = fopen(RESULTS_DIR . DIRECTORY_SEPARATOR . $result_filename, 'w');
 $columns = array('path', 'second files exits');
 fputcsv($handler, $columns);
 foreach ($dirs_without_file as $dir) {    
