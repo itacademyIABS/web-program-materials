@@ -3,6 +3,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 define('SITE_PATH', 'site');
+define('VAR_PATH', 'var');
 define('ARTICLE_DELIMITER', '%%%X%%%');
         
 function get_categories() {
@@ -46,4 +47,10 @@ function get_article($category, $articleFile) {
         , 'content' =>  $exploded[1]
         , 'file' => $articleFile
     );
+}
+
+function write_line_to_csv($filename, $lineArray){
+    $handle = fopen($filename, 'a');
+    fputcsv($handle, $lineArray);
+    fclose($handle);
 }

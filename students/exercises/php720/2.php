@@ -30,6 +30,6 @@ echo $a;
  */
 $number = 442158755745;
 $search_number = 8;
-echo (array_count_values(str_split($number)))[$search_number];
+//echo (array_count_values(str_split($number)))[$search_number];
 
 //На такую хрень даже нетбинс ругается) Но она работает.

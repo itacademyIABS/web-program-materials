@@ -1,5 +1,6 @@
 <?php 
-require 'functions.php'; 
+require_once 'functions.php'; 
+require_once 'visitors_log.php';
 $categories = get_categories();
 ?>
 <!doctype html>
