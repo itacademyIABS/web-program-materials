@@ -1,0 +1,6 @@
+extension,dirname
+php, scripts
+png, images
+jpg, images
+txt, texts
+log, texts
