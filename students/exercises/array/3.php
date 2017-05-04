@@ -23,3 +23,17 @@ $users = array(
     Вывести двух последних пользователей
     Написать аналог стандартной функции array_column
  */
+
+
+function array_column2($arr, $column_name) {
+    $result = array();
+    foreach ($arr as $v) {
+        $result[] = $v[$column_name];
+        //echo $v[$column_name] . "\n";
+    }
+    return $result;
+}
+
+$r = array_column2($users, 'login');
+
+var_dump($r);
