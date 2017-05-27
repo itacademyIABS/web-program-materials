@@ -1,7 +1,7 @@
 <?php
 require 'functions.php';
 $error = "";
-if (isset($_POST['login'])) {
+if (isset($_POST['submit'])) {
     if (check_password($_POST['login'], $_POST['password'])) {
         setcookie("user", $_POST['login'], time() + 3600, "/");
     } else {
@@ -30,8 +30,8 @@ if (isset($_POST['logout'])) {
         <form style="margin-top: 10px;" method="post">
             <input name="login" placeholder="Login" type="text">
             <input name="password" placeholder="Password" type="text">
-            <input type="submit" value="enter">
-            <input type="submit" value="logout">
+            <input name="submit" type="submit" value="enter">
+            <input name="logout" type="submit" value="logout">
         </form>
             
         <a href="private.php">Приватная часть</a>
