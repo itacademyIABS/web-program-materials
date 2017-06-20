@@ -1,6 +1,6 @@
 <?php
 
-class Article
+class OneArticle
 {
     const ARTICLE_PATH = "articles";
     const DELIMITER = "%%%X%%%";
@@ -20,7 +20,7 @@ class Article
         $result = array();
         foreach ($articles as $articleFile) {
             if ($articleFile != '.' and $articleFile != '..') {
-                $result[] = new Article($articleFile);
+                $result[] = new OneArticle($articleFile);
             }
         }
         return $result;

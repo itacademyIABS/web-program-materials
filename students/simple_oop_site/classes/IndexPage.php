@@ -16,7 +16,7 @@ class IndexPage extends Page
     }
 
     protected function _renderArticleList(){
-        $articles = Article::getAll();
+        $articles = OneArticle::getAll();
         if (empty($articles)) {
             echo "Статей нет";
             return;

@@ -9,7 +9,7 @@
 class ArticlePage extends Page
 {
     public function getContent(){
-        $article = new Article($_GET['file']);
+        $article = new OneArticle($_GET['file']);
         $this->_renderH1($article->title);
         $this->_renderArticle($article->content);
     }
