@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../manager/.idea/manager.iml" filepath="$PROJECT_DIR$/../manager/.idea/manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../manager/.idea/manager.iml" filepath="$PROJECT_DIR$/../manager/.idea/manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/test.dz.iml" filepath="$PROJECT_DIR$/.idea/test.dz.iml" />
       <module fileurl="file://$PROJECT_DIR$/../test2.dz/.idea/test2.dz.iml" filepath="$PROJECT_DIR$/../test2.dz/.idea/test2.dz.iml" />
       <module fileurl="file://$PROJECT_DIR$/../vetmanager-api/.idea/vetmanager-api.iml" filepath="$PROJECT_DIR$/../vetmanager-api/.idea/vetmanager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" filepath="$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" />
     </modules>
   </component>
 </project>
