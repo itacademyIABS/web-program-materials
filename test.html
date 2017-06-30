@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+/***** Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, serif;
+  font-size: 16px;
+}
+
+div.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+/****************************** Шапка */
+header {
+  height: 56px;
+  min-width: 800px;
+  background: rgb(0,66,115); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,66,115,1) 35%, rgba(0,66,115,1) 35%, rgba(255,255,255,1) 35%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,66,115,1) 35%,rgba(а0,66,115,1) 35%,rgba(255,255,255,1) 35%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,66,115,1) 35%,rgba(0,66,115,1) 35%,rgba(255,255,255,1) 35%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004273', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */  
+}
+.logo-wapper {
+  background-color: #004273;
+  width: 200px;
+  height: 56px;
+  float: left;
+
+}
+.logo {
+  position: relative;
+  top: 10px;  
+}
+.menu {
+  position: relative;
+  top: 20px;    
+}
+.menu li {
+  display: inline;
+  float: right;
+  margin-left: 40px;
+}
+.menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:  #161616;
+  font-family: ArialNarrow, Arial;
+}
+/************Женщина в ванной */
+
+.main-img {
+  background-image: url(http://iabsprogrammers.com.ua/imgs/woman.jpg);
+  width: 1366px;
+  height: 561px;  
+  margin: 0 auto;
+}
+
+.main-text {
+  background-color:  rgba(0, 0, 0, 0.18);
+  width: 859px;
+  height: 286px;
+  position: relative;
+  top: 138px; /*(561-286)/2*/
+  padding: 60px 40px 40px 120px;
+}
+.main-text h1 {
+  color:  #ffffff;
+  font-size: 95px;
+  font-weight: 700;
+  letter-spacing: 4.75px;
+  text-transform: uppercase;
+}
+
+.main-text p {
+  font-size: 16px;
+  color:  #ffffff;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  line-height: 14px;
+  text-align: justify;
+}
+
+.wrapper h2 {
+  color:  #004273;
+  font-size: 22px;
+  font-weight: 300;  
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;  
+}
+
+.wrapper hr {
+  border-width: 0.4166666666666667px;
+  border-color:  #000000;
+  border-style: solid;
+  opacity: 0.4;
+  width: 149px;
+  height: 2px;  
+  margin: 20px auto;
+}
+
+.wrapper p {
+  font-family: Arial;
+  color:  #5b5b5b;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justify;
+}        
+
+.productions li:nth-child(1) {
+  background-image: url(http://iabsprogrammers.com.ua/imgs/1.jpg);
+}
+.productions li:nth-child(2) {
+  background-image: url(http://iabsprogrammers.com.ua/imgs/2.jpg);
+  margin-left: 60px;
+}
+.productions li:nth-child(3) {
+  background-image: url(http://iabsprogrammers.com.ua/imgs/3.jpg);
+}
+.productions li:nth-child(4) {
+  background-image: url(http://iabsprogrammers.com.ua/imgs/4.jpg);
+  margin-left: 60px;
+}
+
+.productions li {
+    float: left;
+    height: 267px;
+    width: 46.125%;
+    margin-bottom: 40px;
+    list-style: none;
+    box-shadow: inset 370px 0px rgba(0, 66, 117, 0.35);
+    text-align: center;
+    transition: 2s;
+}
+.productions li:hover {
+    box-shadow: none;
+}
+.productions li a:hover {
+    border: 2px solid white;
+}
+.productions li a {
+    display: inline-block;    
+    text-decoration: none; 
+    color: #fff;
+    padding: 27px 35px;
+    margin-top: 95px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.375;
+    text-transform: uppercase;
+    transition: 1s;    
+}
+
+        </style>
+    </head>
+    <body>
+
+
+<!-------------------- Шапка  -->
+
+<header>
+  <div class="wrapper">
+    <div class="logo-wapper">
+    <img src="http://iabsprogrammers.com.ua/imgs/logo.png" alt="" class="logo" />
+    </div>  
+    <ul class="menu">
+      <li><a href="#">О компании</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Где купить</a></li>
+      <li><a href="#">Контакты</a></li>      
+    </ul>
+  </div>
+</header>
+
+
+<!-------------------- Женщина в ванной -->
+
+
+<div class="main-img">
+  <div class="main-text">
+    <h1>olimpiya</h1>
+    <p>Принятие ванны - эта процедура способна не только снять эмоциональное напряжение, но и увидеть мир по-новому, радостней и доброжелательнее.</p></div>
+</div>
+
+
+<!-------------------- Контент     -->
+
+<div class="wrapper">
+  <h2>Философия Koller Pool</h2>
+  <hr />
+  <p>Фабрики Koller Pool находятся в Европе, которая также является основным регионом нашего сбыта. Наша цель-производить изделия с учетом потребностей и пожеланий наших покупателей. Поверьте, что существуют вещи, которые в течение многих лет могут постоянно приносить Вам радость. Мы всегда будем стремиться нести в Ваш дом уют, красоту и удовлетворение.</p>
+  
+  <h2>Философия Koller Pool</h2>
+  <hr />
+  
+<nav class="productions">
+  <ul>
+    <li><a href="#">Акриловые ванны</a></li>
+    <li><a href="#">Душевые уголки, двери, шторы для ванн</a></li>
+    <li><a href="#">Системы инсталяции, панели смыва</a></li>
+    <li><a href="#">Смесители</a></li>
+  </ul>
+</nav>
+</div>
+
+    </body>
+</html>
