@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89821af3-794e-421b-be67-44df4e4b49b7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/students/src/sql/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../manager/ajax_invoice.php" afterPath="$PROJECT_DIR$/../manager/ajax_invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager-api/test.php" afterPath="$PROJECT_DIR$/../vetmanager-api/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" afterPath="$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager.dz/protected/components/MagentoGateway.php" afterPath="$PROJECT_DIR$/../vetmanager.dz/protected/components/MagentoGateway.php" />
@@ -19,7 +21,21 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/students/src/sql/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+              <folding>
+                <marker date="1498858233531" expanded="true" signature="167:189" ph="SELECT * FRO... articles" />
+                <marker date="1498858233531" expanded="true" signature="283:318" ph="SELECT * FRO... articles" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -77,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/students/simple_oop_site/classes/Page.php" />
         <option value="$PROJECT_DIR$/students/simple_oop_site/index.php" />
         <option value="$PROJECT_DIR$/students/simple_oop_site/article.php" />
         <option value="$PROJECT_DIR$/../manager/build/update/cron_updater.php" />
@@ -128,6 +143,7 @@
         <option value="$PROJECT_DIR$/students/scripts/namespace_demo/New/App/Main/MyClass.php" />
         <option value="$PROJECT_DIR$/students/scripts/namespace_demo/New/test.php" />
         <option value="$PROJECT_DIR$/students/src/sql/test.sql" />
+        <option value="$PROJECT_DIR$/students/src/sql/test.php" />
       </list>
     </option>
   </component>
@@ -381,17 +397,18 @@
       <workItem from="1498560108769" duration="8497000" />
       <workItem from="1498574782206" duration="660000" />
       <workItem from="1498635904739" duration="10314000" />
-      <workItem from="1498847715865" duration="5059000" />
+      <workItem from="1498847715865" duration="6389000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128370000" />
+    <option name="totallyTimeSpent" value="129700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -424,13 +441,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../vetmanager.dz/protected/components/CryptComponent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../vetmanager.dz/protected/models/RemindForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
@@ -771,6 +781,17 @@
         <state relative-caret-position="543">
           <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/students/src/sql/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <marker date="1498858233531" expanded="true" signature="167:189" ph="SELECT * FRO... articles" />
+            <marker date="1498858233531" expanded="true" signature="283:318" ph="SELECT * FRO... articles" />
+          </folding>
         </state>
       </provider>
     </entry>
