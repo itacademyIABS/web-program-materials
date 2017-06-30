@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89821af3-794e-421b-be67-44df4e4b49b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/students/src/sql/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../manager/ajax_invoice.php" afterPath="$PROJECT_DIR$/../manager/ajax_invoice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager-api/test.php" afterPath="$PROJECT_DIR$/../vetmanager-api/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" afterPath="$PROJECT_DIR$/../vetmanager.dz/.idea/vetmanager.dz.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../vetmanager.dz/protected/components/MagentoGateway.php" afterPath="$PROJECT_DIR$/../vetmanager.dz/protected/components/MagentoGateway.php" />
@@ -397,12 +395,12 @@
       <workItem from="1498560108769" duration="8497000" />
       <workItem from="1498574782206" duration="660000" />
       <workItem from="1498635904739" duration="10314000" />
-      <workItem from="1498847715865" duration="6389000" />
+      <workItem from="1498847715865" duration="6860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129700000" />
+    <option name="totallyTimeSpent" value="130171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
