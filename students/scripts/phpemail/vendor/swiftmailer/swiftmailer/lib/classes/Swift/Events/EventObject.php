@@ -22,7 +22,7 @@ class Swift_Events_EventObject implements Swift_Events_Event
     private $_bubbleCancelled = false;
 
     /**
-     * Create a new EventObject originating at $source.
+     * Create a New EventObject originating at $source.
      *
      * @param object $source
      */

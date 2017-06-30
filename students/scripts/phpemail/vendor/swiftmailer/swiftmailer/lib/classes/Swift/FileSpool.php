@@ -27,7 +27,7 @@ class Swift_FileSpool extends Swift_ConfigurableSpool
     private $_retryLimit = 10;
 
     /**
-     * Create a new FileSpool.
+     * Create a New FileSpool.
      *
      * @param string $path
      *

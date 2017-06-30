@@ -840,7 +840,7 @@ abstract class Swift_Mime_AbstractMimeEntityTest extends \SwiftMailerTestCase
               ->once()
               ->with(\Mockery::any(), 'body');
 
-        $entity->setBody("new\r\nnew!");
+        $entity->setBody("New\r\nNew!");
     }
 
     public function testBodyIsNotClearedFromCacheIfSameBodySet()

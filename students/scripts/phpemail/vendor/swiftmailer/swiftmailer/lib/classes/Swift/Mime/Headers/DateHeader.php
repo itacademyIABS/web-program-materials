@@ -23,12 +23,12 @@ class Swift_Mime_Headers_DateHeader extends Swift_Mime_Headers_AbstractHeader
     private $_timestamp;
 
     /**
-     * Creates a new DateHeader with $name and $timestamp.
+     * Creates a New DateHeader with $name and $timestamp.
      *
      * Example:
      * <code>
      * <?php
-     * $header = new Swift_Mime_Headers_DateHeader('Date', time());
+     * $header = New Swift_Mime_Headers_DateHeader('Date', time());
      * ?>
      * </code>
      *

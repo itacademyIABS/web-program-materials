@@ -52,7 +52,7 @@ class Swift_Events_SendEvent extends Swift_Events_EventObject
     private $_result;
 
     /**
-     * Create a new SendEvent for $source and $message.
+     * Create a New SendEvent for $source and $message.
      *
      * @param Swift_Transport    $source
      * @param Swift_Mime_Message $message

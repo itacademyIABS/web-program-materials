@@ -30,7 +30,7 @@ class Swift_CharacterReaderFactory_SimpleCharacterReaderFactory implements Swift
     private static $_loaded = array();
 
     /**
-     * Creates a new CharacterReaderFactory.
+     * Creates a New CharacterReaderFactory.
      */
     public function __construct()
     {

@@ -51,7 +51,7 @@ class Swift_Transport_Esmtp_AuthHandler implements Swift_Transport_EsmtpHandler
     private $_esmtpParams = array();
 
     /**
-     * Create a new AuthHandler with $authenticators for support.
+     * Create a New AuthHandler with $authenticators for support.
      *
      * @param Swift_Transport_Esmtp_Authenticator[] $authenticators
      */

@@ -44,7 +44,7 @@ class Swift_Plugins_AntiFloodPlugin implements Swift_Events_SendListener, Swift_
     private $_sleeper;
 
     /**
-     * Create a new AntiFloodPlugin with $threshold and $sleep time.
+     * Create a New AntiFloodPlugin with $threshold and $sleep time.
      *
      * @param int                   $threshold
      * @param int                   $sleep     time

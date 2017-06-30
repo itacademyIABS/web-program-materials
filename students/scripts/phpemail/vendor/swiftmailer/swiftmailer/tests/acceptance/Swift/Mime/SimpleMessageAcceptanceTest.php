@@ -550,7 +550,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
             'chris.corbyn@swiftmailer.org' => 'Chris Corbyn', ));
         $message->setBody(
             'just a test body'."\r\n".
-            'with a new line'
+            'with a New line'
             );
         $id = $message->getId();
         $date = $message->getDate();
@@ -565,7 +565,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
             'Content-Transfer-Encoding: quoted-printable'."\r\n".
             "\r\n".
             'just a test body'."\r\n".
-            'with a new line',
+            'with a New line',
             $message->toString()
             );
     }
@@ -1207,7 +1207,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
             'chris.corbyn@swiftmailer.org' => 'Chris Corbyn', ));
         $message->setBody(
             'just a test body'."\n".
-            'with a new line'
+            'with a New line'
             );
         $id = $message->getId();
         $date = $message->getDate();
@@ -1222,7 +1222,7 @@ class Swift_Mime_SimpleMessageAcceptanceTest extends \PHPUnit_Framework_TestCase
             'Content-Transfer-Encoding: quoted-printable'."\r\n".
             "\r\n".
             'just a test body'."\r\n".
-            'with a new line',
+            'with a New line',
             $message->toString()
             );
     }

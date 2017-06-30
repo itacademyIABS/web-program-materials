@@ -19,7 +19,7 @@ class Swift_StreamFilters_StringReplacementFilterFactory implements Swift_Replac
     private $_filters = array();
 
     /**
-     * Create a new StreamFilter to replace $search with $replace in a string.
+     * Create a New StreamFilter to replace $search with $replace in a string.
      *
      * @param string $search
      * @param string $replace

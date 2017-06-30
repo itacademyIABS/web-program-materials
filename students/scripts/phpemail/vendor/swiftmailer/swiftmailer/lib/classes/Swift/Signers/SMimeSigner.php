@@ -69,7 +69,7 @@ class Swift_Signers_SMimeSigner implements Swift_Signers_BodySigner
     }
 
     /**
-     * Returns an new Swift_Signers_SMimeSigner instance.
+     * Returns an New Swift_Signers_SMimeSigner instance.
      *
      * @param string $certificate
      * @param string $privateKey
@@ -211,8 +211,8 @@ class Swift_Signers_SMimeSigner implements Swift_Signers_BodySigner
 
         // Store the message using ByteStream to a file{1}
         // Remove all Children
-        // Sign file{1}, parse the new MIME headers and set them on the primary MimeEntity
-        // Set the singed-body as the new body (without boundary)
+        // Sign file{1}, parse the New MIME headers and set them on the primary MimeEntity
+        // Set the singed-body as the New body (without boundary)
 
         $messageStream = new Swift_ByteStream_TemporaryFileByteStream();
         $this->toSMimeByteStream($messageStream, $message);

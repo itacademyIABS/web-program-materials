@@ -30,7 +30,7 @@ class Swift_Events_ResponseEvent extends Swift_Events_EventObject
     private $_response;
 
     /**
-     * Create a new ResponseEvent for $source and $response.
+     * Create a New ResponseEvent for $source and $response.
      *
      * @param Swift_Transport $source
      * @param string          $response

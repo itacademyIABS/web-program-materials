@@ -16,7 +16,7 @@
 class Swift_SwiftException extends Exception
 {
     /**
-     * Create a new SwiftException with $message.
+     * Create a New SwiftException with $message.
      *
      * @param string    $message
      * @param int       $code

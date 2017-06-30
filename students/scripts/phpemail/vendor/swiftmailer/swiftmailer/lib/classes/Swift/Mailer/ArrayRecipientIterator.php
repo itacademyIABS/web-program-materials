@@ -23,7 +23,7 @@ class Swift_Mailer_ArrayRecipientIterator implements Swift_Mailer_RecipientItera
     private $_recipients = array();
 
     /**
-     * Create a new ArrayRecipientIterator from $recipients.
+     * Create a New ArrayRecipientIterator from $recipients.
      *
      * @param array $recipients
      */

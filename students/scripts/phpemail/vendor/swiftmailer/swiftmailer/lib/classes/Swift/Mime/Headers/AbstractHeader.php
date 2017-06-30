@@ -65,7 +65,7 @@ abstract class Swift_Mime_Headers_AbstractHeader implements Swift_Mime_Header
     private $_cachedValue = null;
 
     /**
-     * Creates a new Header.
+     * Creates a New Header.
      *
      * @param Swift_Mime_Grammar $grammar
      */
@@ -483,7 +483,7 @@ abstract class Swift_Mime_Headers_AbstractHeader implements Swift_Mime_Header
 
         // Build all tokens back into compliant header
         foreach ($tokens as $i => $token) {
-            // Line longer than specified maximum or token was just a new line
+            // Line longer than specified maximum or token was just a New line
             if (("\r\n" == $token) ||
                 ($i > 0 && strlen($currentLine.$token) > $this->_lineLength)
                 && 0 < strlen($currentLine)) {

@@ -19,7 +19,7 @@ class Swift_Plugins_Loggers_EchoLogger implements Swift_Plugins_Logger
     private $_isHtml;
 
     /**
-     * Create a new EchoLogger.
+     * Create a New EchoLogger.
      *
      * @param bool $isHtml
      */

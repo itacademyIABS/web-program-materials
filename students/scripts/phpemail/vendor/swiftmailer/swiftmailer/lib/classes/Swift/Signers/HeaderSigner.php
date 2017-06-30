@@ -25,7 +25,7 @@ interface Swift_Signers_HeaderSigner extends Swift_Signer, Swift_InputByteStream
     public function ignoreHeader($header_name);
 
     /**
-     * Prepare the Signer to get a new Body.
+     * Prepare the Signer to get a New Body.
      *
      * @return Swift_Signers_HeaderSigner
      */

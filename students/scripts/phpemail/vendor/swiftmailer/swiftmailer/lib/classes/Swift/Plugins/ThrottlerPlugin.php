@@ -69,7 +69,7 @@ class Swift_Plugins_ThrottlerPlugin extends Swift_Plugins_BandwidthMonitorPlugin
     private $_messages = 0;
 
     /**
-     * Create a new ThrottlerPlugin.
+     * Create a New ThrottlerPlugin.
      *
      * @param int                   $rate
      * @param int                   $mode,   defaults to {@link BYTES_PER_MINUTE}

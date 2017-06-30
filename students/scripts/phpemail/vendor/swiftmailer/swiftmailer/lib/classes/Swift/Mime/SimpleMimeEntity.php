@@ -71,7 +71,7 @@ class Swift_Mime_SimpleMimeEntity implements Swift_Mime_MimeEntity
     protected $_userContentType;
 
     /**
-     * Create a new SimpleMimeEntity with $headers, $encoder and $cache.
+     * Create a New SimpleMimeEntity with $headers, $encoder and $cache.
      *
      * @param Swift_Mime_HeaderSet      $headers
      * @param Swift_Mime_ContentEncoder $encoder
@@ -113,7 +113,7 @@ class Swift_Mime_SimpleMimeEntity implements Swift_Mime_MimeEntity
     }
 
     /**
-     * Generate a new Content-ID or Message-ID for this MIME entity.
+     * Generate a New Content-ID or Message-ID for this MIME entity.
      *
      * @return string
      */
@@ -299,7 +299,7 @@ class Swift_Mime_SimpleMimeEntity implements Swift_Mime_MimeEntity
                 } elseif ($level < $nextLevel) {
                     // Re-assign immediateChildren to grandchildren
                     $grandchildren = array_merge($grandchildren, $immediateChildren);
-                    // Set new children
+                    // Set New children
                     $immediateChildren = array($child);
                 } else {
                     $grandchildren[] = $child;

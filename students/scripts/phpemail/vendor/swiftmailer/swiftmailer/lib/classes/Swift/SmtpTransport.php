@@ -23,7 +23,7 @@
 class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
 {
     /**
-     * Create a new SmtpTransport, optionally with $host, $port and $security.
+     * Create a New SmtpTransport, optionally with $host, $port and $security.
      *
      * @param string $host
      * @param int    $port
@@ -43,7 +43,7 @@ class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
     }
 
     /**
-     * Create a new SmtpTransport instance.
+     * Create a New SmtpTransport instance.
      *
      * @param string $host
      * @param int    $port

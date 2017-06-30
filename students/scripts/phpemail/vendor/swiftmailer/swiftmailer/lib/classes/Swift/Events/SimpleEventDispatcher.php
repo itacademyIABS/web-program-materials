@@ -25,7 +25,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     private $_bubbleQueue = array();
 
     /**
-     * Create a new EventDispatcher.
+     * Create a New EventDispatcher.
      */
     public function __construct()
     {
@@ -39,7 +39,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     }
 
     /**
-     * Create a new SendEvent for $source and $message.
+     * Create a New SendEvent for $source and $message.
      *
      * @param Swift_Transport $source
      * @param Swift_Mime_Message
@@ -52,7 +52,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     }
 
     /**
-     * Create a new CommandEvent for $source and $command.
+     * Create a New CommandEvent for $source and $command.
      *
      * @param Swift_Transport $source
      * @param string          $command      That will be executed
@@ -66,7 +66,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     }
 
     /**
-     * Create a new ResponseEvent for $source and $response.
+     * Create a New ResponseEvent for $source and $response.
      *
      * @param Swift_Transport $source
      * @param string          $response
@@ -80,7 +80,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     }
 
     /**
-     * Create a new TransportChangeEvent for $source.
+     * Create a New TransportChangeEvent for $source.
      *
      * @param Swift_Transport $source
      *
@@ -92,7 +92,7 @@ class Swift_Events_SimpleEventDispatcher implements Swift_Events_EventDispatcher
     }
 
     /**
-     * Create a new TransportExceptionEvent for $source.
+     * Create a New TransportExceptionEvent for $source.
      *
      * @param Swift_Transport          $source
      * @param Swift_TransportException $ex

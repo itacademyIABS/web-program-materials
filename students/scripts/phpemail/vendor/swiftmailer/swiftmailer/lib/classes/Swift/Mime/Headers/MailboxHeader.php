@@ -23,7 +23,7 @@ class Swift_Mime_Headers_MailboxHeader extends Swift_Mime_Headers_AbstractHeader
     private $_mailboxes = array();
 
     /**
-     * Creates a new MailboxHeader with $name.
+     * Creates a New MailboxHeader with $name.
      *
      * @param string                   $name    of Header
      * @param Swift_Mime_HeaderEncoder $encoder
@@ -113,7 +113,7 @@ class Swift_Mime_Headers_MailboxHeader extends Swift_Mime_Headers_AbstractHeader
      * Example:
      * <code>
      * <?php
-     * $header = new Swift_Mime_Headers_MailboxHeader('From',
+     * $header = New Swift_Mime_Headers_MailboxHeader('From',
      *  array('chris@swiftmailer.org' => 'Chris Corbyn',
      *  'mark@swiftmailer.org' => 'Mark Corbyn')
      *  );
@@ -144,7 +144,7 @@ class Swift_Mime_Headers_MailboxHeader extends Swift_Mime_Headers_AbstractHeader
      * Example:
      * <code>
      * <?php
-     * $header = new Swift_Mime_Headers_MailboxHeader('From',
+     * $header = New Swift_Mime_Headers_MailboxHeader('From',
      *  array('chris@swiftmailer.org' => 'Chris Corbyn',
      *  'mark@swiftmailer.org' => 'Mark Corbyn')
      *  );

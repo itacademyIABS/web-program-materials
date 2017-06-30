@@ -28,7 +28,7 @@ class Swift_Mime_MimePart extends Swift_Mime_SimpleMimeEntity
     private $_nestingLevel = self::LEVEL_ALTERNATIVE;
 
     /**
-     * Create a new MimePart with $headers, $encoder and $cache.
+     * Create a New MimePart with $headers, $encoder and $cache.
      *
      * @param Swift_Mime_HeaderSet      $headers
      * @param Swift_Mime_ContentEncoder $encoder

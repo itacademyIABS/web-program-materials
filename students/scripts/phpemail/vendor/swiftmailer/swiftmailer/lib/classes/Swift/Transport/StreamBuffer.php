@@ -34,7 +34,7 @@ class Swift_Transport_StreamBuffer extends Swift_ByteStream_AbstractFilterableIn
     private $_translations = array();
 
     /**
-     * Create a new StreamBuffer using $replacementFactory for transformations.
+     * Create a New StreamBuffer using $replacementFactory for transformations.
      *
      * @param Swift_ReplacementFilterFactory $replacementFactory
      */

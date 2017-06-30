@@ -25,7 +25,7 @@ class Swift_Mime_Headers_IdentificationHeader extends Swift_Mime_Headers_Abstrac
     private $_ids = array();
 
     /**
-     * Creates a new IdentificationHeader with the given $name and $id.
+     * Creates a New IdentificationHeader with the given $name and $id.
      *
      * @param string             $name
      * @param Swift_Mime_Grammar $grammar

@@ -31,7 +31,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     private $_charset;
 
     /**
-     * Create a new SimpleHeaderSet with the given $factory.
+     * Create a New SimpleHeaderSet with the given $factory.
      *
      * @param Swift_Mime_HeaderFactory $factory
      * @param string                   $charset
@@ -57,7 +57,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new Mailbox Header with a list of $addresses.
+     * Add a New Mailbox Header with a list of $addresses.
      *
      * @param string       $name
      * @param array|string $addresses
@@ -69,7 +69,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new Date header using $timestamp (UNIX time).
+     * Add a New Date header using $timestamp (UNIX time).
      *
      * @param string $name
      * @param int    $timestamp
@@ -81,7 +81,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new basic text header with $name and $value.
+     * Add a New basic text header with $name and $value.
      *
      * @param string $name
      * @param string $value
@@ -93,7 +93,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new ParameterizedHeader with $name, $value and $params.
+     * Add a New ParameterizedHeader with $name, $value and $params.
      *
      * @param string $name
      * @param string $value
@@ -105,7 +105,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new ID header for Message-ID or Content-ID.
+     * Add a New ID header for Message-ID or Content-ID.
      *
      * @param string       $name
      * @param string|array $ids
@@ -116,7 +116,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Add a new Path header with an address (path) in it.
+     * Add a New Path header with an address (path) in it.
      *
      * @param string $name
      * @param string $path
@@ -264,7 +264,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
     }
 
     /**
-     * Create a new instance of this HeaderSet.
+     * Create a New instance of this HeaderSet.
      *
      * @return Swift_Mime_HeaderSet
      */
@@ -389,7 +389,7 @@ class Swift_Mime_SimpleHeaderSet implements Swift_Mime_HeaderSet
         return array_key_exists(strtolower($header->getFieldName()), $this->_required);
     }
 
-    /** Notify all Headers of the new charset */
+    /** Notify all Headers of the New charset */
     private function _notifyHeadersOfCharset($charset)
     {
         foreach ($this->_headers as $headerGroup) {

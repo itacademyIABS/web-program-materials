@@ -30,7 +30,7 @@ class Swift_Plugins_Loggers_ArrayLogger implements Swift_Plugins_Logger
     private $_size = 0;
 
     /**
-     * Create a new ArrayLogger with a maximum of $size entries.
+     * Create a New ArrayLogger with a maximum of $size entries.
      *
      * @var int
      */

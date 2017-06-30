@@ -15,7 +15,7 @@ namespace Composer\Autoload;
 /**
  * ClassLoader implements a PSR-0, PSR-4 and classmap class loader.
  *
- *     $loader = new \Composer\Autoload\ClassLoader();
+ *     $loader = New \Composer\Autoload\ClassLoader();
  *
  *     // register classes with namespaces
  *     $loader->add('Symfony\Component', __DIR__.'/component');
@@ -168,7 +168,7 @@ class ClassLoader
                 );
             }
         } elseif (!isset($this->prefixDirsPsr4[$prefix])) {
-            // Register directories for a new namespace.
+            // Register directories for a New namespace.
             $length = strlen($prefix);
             if ('\\' !== $prefix[$length - 1]) {
                 throw new \InvalidArgumentException("A non-empty PSR-4 prefix must end with a namespace separator.");

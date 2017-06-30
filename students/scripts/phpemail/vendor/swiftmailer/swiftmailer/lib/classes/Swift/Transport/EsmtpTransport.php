@@ -46,7 +46,7 @@ class Swift_Transport_EsmtpTransport extends Swift_Transport_AbstractSmtpTranspo
         );
 
     /**
-     * Creates a new EsmtpTransport using the given I/O buffer.
+     * Creates a New EsmtpTransport using the given I/O buffer.
      *
      * @param Swift_Transport_IoBuffer       $buf
      * @param Swift_Transport_EsmtpHandler[] $extensionHandlers

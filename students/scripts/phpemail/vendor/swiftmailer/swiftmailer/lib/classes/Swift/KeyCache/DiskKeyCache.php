@@ -53,7 +53,7 @@ class Swift_KeyCache_DiskKeyCache implements Swift_KeyCache
     private $_quotes = false;
 
     /**
-     * Create a new DiskKeyCache with the given $stream for cloning to make
+     * Create a New DiskKeyCache with the given $stream for cloning to make
      * InputByteStreams, and the given $path to save to.
      *
      * @param Swift_KeyCache_KeyCacheInputStream $stream

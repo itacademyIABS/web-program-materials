@@ -37,7 +37,7 @@ class Swift_ByteStream_FileByteStream extends Swift_ByteStream_AbstractFilterabl
     private $_seekable = null;
 
     /**
-     * Create a new FileByteStream for $path.
+     * Create a New FileByteStream for $path.
      *
      * @param string $path
      * @param bool   $writable if true

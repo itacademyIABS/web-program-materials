@@ -30,7 +30,7 @@ class Swift_KeyCache_ArrayKeyCache implements Swift_KeyCache
     private $_stream;
 
     /**
-     * Create a new ArrayKeyCache with the given $stream for cloning to make
+     * Create a New ArrayKeyCache with the given $stream for cloning to make
      * InputByteStreams.
      *
      * @param Swift_KeyCache_KeyCacheInputStream $stream

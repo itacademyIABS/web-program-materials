@@ -28,7 +28,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     private $_charset;
 
     /**
-     * Creates a new SimpleHeaderFactory using $encoder and $paramEncoder.
+     * Creates a New SimpleHeaderFactory using $encoder and $paramEncoder.
      *
      * @param Swift_Mime_HeaderEncoder $encoder
      * @param Swift_Encoder            $paramEncoder
@@ -44,7 +44,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new Mailbox Header with a list of $addresses.
+     * Create a New Mailbox Header with a list of $addresses.
      *
      * @param string            $name
      * @param array|string|null $addresses
@@ -63,7 +63,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new Date header using $timestamp (UNIX time).
+     * Create a New Date header using $timestamp (UNIX time).
      *
      * @param string   $name
      * @param int|null $timestamp
@@ -82,7 +82,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new basic text header with $name and $value.
+     * Create a New basic text header with $name and $value.
      *
      * @param string $name
      * @param string $value
@@ -101,7 +101,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new ParameterizedHeader with $name, $value and $params.
+     * Create a New ParameterizedHeader with $name, $value and $params.
      *
      * @param string $name
      * @param string $value
@@ -125,7 +125,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new ID header for Message-ID or Content-ID.
+     * Create a New ID header for Message-ID or Content-ID.
      *
      * @param string       $name
      * @param string|array $ids
@@ -144,7 +144,7 @@ class Swift_Mime_SimpleHeaderFactory implements Swift_Mime_HeaderFactory
     }
 
     /**
-     * Create a new Path header with an address (path) in it.
+     * Create a New Path header with an address (path) in it.
      *
      * @param string $name
      * @param string $path

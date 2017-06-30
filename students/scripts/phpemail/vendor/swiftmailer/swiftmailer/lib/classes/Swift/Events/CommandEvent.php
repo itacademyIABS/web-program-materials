@@ -30,7 +30,7 @@ class Swift_Events_CommandEvent extends Swift_Events_EventObject
     private $_successCodes = array();
 
     /**
-     * Create a new CommandEvent for $source with $command.
+     * Create a New CommandEvent for $source with $command.
      *
      * @param Swift_Transport $source
      * @param string          $command

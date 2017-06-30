@@ -18,7 +18,7 @@ class Swift_DependencyContainer
     /** Constant for literal value types */
     const TYPE_VALUE = 0x0001;
 
-    /** Constant for new instance types */
+    /** Constant for New instance types */
     const TYPE_INSTANCE = 0x0010;
 
     /** Constant for shared instance types */
@@ -133,7 +133,7 @@ class Swift_DependencyContainer
     }
 
     /**
-     * Register a new dependency with $itemName.
+     * Register a New dependency with $itemName.
      *
      * This method returns the current DependencyContainer instance because it
      * requires the use of the fluid interface to set the specific details for the
@@ -188,7 +188,7 @@ class Swift_DependencyContainer
     }
 
     /**
-     * Specify the previously registered item as a new instance of $className.
+     * Specify the previously registered item as a New instance of $className.
      *
      * {@link register()} must be called before this will work.
      * Any arguments can be set with {@link withDependencies()},

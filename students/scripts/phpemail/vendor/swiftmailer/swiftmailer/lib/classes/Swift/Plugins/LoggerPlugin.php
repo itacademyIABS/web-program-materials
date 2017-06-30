@@ -19,7 +19,7 @@ class Swift_Plugins_LoggerPlugin implements Swift_Events_CommandListener, Swift_
     private $_logger;
 
     /**
-     * Create a new LoggerPlugin using $logger.
+     * Create a New LoggerPlugin using $logger.
      *
      * @param Swift_Plugins_Logger $logger
      */

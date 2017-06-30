@@ -43,7 +43,7 @@ class Swift_Plugins_PopBeforeSmtpPlugin implements Swift_Events_TransportChangeL
     private $_transport;
 
     /**
-     * Create a new PopBeforeSmtpPlugin for $host and $port.
+     * Create a New PopBeforeSmtpPlugin for $host and $port.
      *
      * @param string $host
      * @param int    $port
@@ -57,7 +57,7 @@ class Swift_Plugins_PopBeforeSmtpPlugin implements Swift_Events_TransportChangeL
     }
 
     /**
-     * Create a new PopBeforeSmtpPlugin for $host and $port.
+     * Create a New PopBeforeSmtpPlugin for $host and $port.
      *
      * @param string $host
      * @param int    $port

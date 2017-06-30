@@ -35,7 +35,7 @@ class Swift_Transport_MailTransport implements Swift_Transport
     private $_invoker;
 
     /**
-     * Create a new MailTransport with the $log.
+     * Create a New MailTransport with the $log.
      *
      * @param Swift_Transport_MailInvoker  $invoker
      * @param Swift_Events_EventDispatcher $eventDispatcher

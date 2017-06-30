@@ -30,7 +30,7 @@ class Swift_Mime_ContentEncoder_PlainContentEncoder implements Swift_Mime_Conten
     private $_canonical;
 
     /**
-     * Creates a new PlainContentEncoder with $name (probably 7bit or 8bit).
+     * Creates a New PlainContentEncoder with $name (probably 7bit or 8bit).
      *
      * @param string $name
      * @param bool   $canonical If canonicalization transformation should be done.

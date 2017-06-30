@@ -16,7 +16,7 @@
 class Swift_Mime_HeaderEncoder_QpHeaderEncoder extends Swift_Encoder_QpEncoder implements Swift_Mime_HeaderEncoder
 {
     /**
-     * Creates a new QpHeaderEncoder for the given CharacterStream.
+     * Creates a New QpHeaderEncoder for the given CharacterStream.
      *
      * @param Swift_CharacterStream $charStream to use for reading characters
      */

@@ -35,7 +35,7 @@ class Swift_StreamFilters_ByteArrayReplacementFilter implements Swift_StreamFilt
     private $_repSize;
 
     /**
-     * Create a new ByteArrayReplacementFilter with $search and $replace.
+     * Create a New ByteArrayReplacementFilter with $search and $replace.
      *
      * @param array $search
      * @param array $replace
@@ -130,7 +130,7 @@ class Swift_StreamFilters_ByteArrayReplacementFilter implements Swift_StreamFilt
             $last_found = PHP_INT_MAX;
             // We try to find if the next byte is part of a search pattern
             for ($j = 0; $j <= $this->_treeMaxLen; ++$j) {
-                // We have a new byte for a search pattern
+                // We have a New byte for a search pattern
                 if (isset($buffer [$p = $i + $j]) && isset($search_pos[$buffer[$p]])) {
                     $search_pos = $search_pos[$buffer[$p]];
                     // We have a complete pattern, save, in case we don't find a better match later

@@ -30,7 +30,7 @@ class Swift_Plugins_RedirectingPlugin implements Swift_Events_SendListener
     private $_whitelist = array();
 
     /**
-     * Create a new RedirectingPlugin.
+     * Create a New RedirectingPlugin.
      *
      * @param mixed $recipient
      * @param array $whitelist

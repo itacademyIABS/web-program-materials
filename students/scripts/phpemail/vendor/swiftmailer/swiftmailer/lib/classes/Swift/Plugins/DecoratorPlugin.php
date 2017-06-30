@@ -32,7 +32,7 @@ class Swift_Plugins_DecoratorPlugin implements Swift_Events_SendListener, Swift_
     private $_lastMessage;
 
     /**
-     * Create a new DecoratorPlugin with $replacements.
+     * Create a New DecoratorPlugin with $replacements.
      *
      * The $replacements can either be an associative array, or an implementation
      * of {@link Swift_Plugins_Decorator_Replacements}.

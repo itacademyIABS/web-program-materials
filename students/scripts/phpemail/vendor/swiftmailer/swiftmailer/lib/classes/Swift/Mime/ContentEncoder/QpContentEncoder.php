@@ -18,7 +18,7 @@ class Swift_Mime_ContentEncoder_QpContentEncoder extends Swift_Encoder_QpEncoder
     protected $_dotEscape;
 
     /**
-     * Creates a new QpContentEncoder for the given CharacterStream.
+     * Creates a New QpContentEncoder for the given CharacterStream.
      *
      * @param Swift_CharacterStream $charStream to use for reading characters
      * @param Swift_StreamFilter    $filter     if canonicalization should occur

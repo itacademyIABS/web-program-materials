@@ -16,7 +16,7 @@
 class Swift_NullTransport extends Swift_Transport_NullTransport
 {
     /**
-     * Create a new NullTransport.
+     * Create a New NullTransport.
      */
     public function __construct()
     {
@@ -28,7 +28,7 @@ class Swift_NullTransport extends Swift_Transport_NullTransport
     }
 
     /**
-     * Create a new NullTransport instance.
+     * Create a New NullTransport instance.
      *
      * @return Swift_NullTransport
      */

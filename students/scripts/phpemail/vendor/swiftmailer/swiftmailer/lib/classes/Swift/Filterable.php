@@ -16,7 +16,7 @@
 interface Swift_Filterable
 {
     /**
-     * Add a new StreamFilter, referenced by $key.
+     * Add a New StreamFilter, referenced by $key.
      *
      * @param Swift_StreamFilter $filter
      * @param string             $key

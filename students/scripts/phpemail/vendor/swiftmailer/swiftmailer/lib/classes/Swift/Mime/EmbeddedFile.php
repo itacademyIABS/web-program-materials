@@ -16,7 +16,7 @@
 class Swift_Mime_EmbeddedFile extends Swift_Mime_Attachment
 {
     /**
-     * Creates a new Attachment with $headers and $encoder.
+     * Creates a New Attachment with $headers and $encoder.
      *
      * @param Swift_Mime_HeaderSet      $headers
      * @param Swift_Mime_ContentEncoder $encoder

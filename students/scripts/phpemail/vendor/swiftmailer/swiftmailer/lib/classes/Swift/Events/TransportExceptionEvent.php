@@ -23,7 +23,7 @@ class Swift_Events_TransportExceptionEvent extends Swift_Events_EventObject
     private $_exception;
 
     /**
-     * Create a new TransportExceptionEvent for $transport.
+     * Create a New TransportExceptionEvent for $transport.
      *
      * @param Swift_Transport          $transport
      * @param Swift_TransportException $ex

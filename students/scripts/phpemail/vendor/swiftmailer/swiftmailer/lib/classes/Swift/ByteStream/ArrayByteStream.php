@@ -44,7 +44,7 @@ class Swift_ByteStream_ArrayByteStream implements Swift_InputByteStream, Swift_O
     private $_mirrors = array();
 
     /**
-     * Create a new ArrayByteStream.
+     * Create a New ArrayByteStream.
      *
      * If $stack is given the stream will be populated with the bytes it contains.
      *

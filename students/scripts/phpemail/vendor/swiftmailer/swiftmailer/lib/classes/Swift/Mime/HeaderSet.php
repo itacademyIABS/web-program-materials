@@ -16,7 +16,7 @@
 interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
 {
     /**
-     * Add a new Mailbox Header with a list of $addresses.
+     * Add a New Mailbox Header with a list of $addresses.
      *
      * @param string       $name
      * @param array|string $addresses
@@ -24,7 +24,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function addMailboxHeader($name, $addresses = null);
 
     /**
-     * Add a new Date header using $timestamp (UNIX time).
+     * Add a New Date header using $timestamp (UNIX time).
      *
      * @param string $name
      * @param int    $timestamp
@@ -32,7 +32,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function addDateHeader($name, $timestamp = null);
 
     /**
-     * Add a new basic text header with $name and $value.
+     * Add a New basic text header with $name and $value.
      *
      * @param string $name
      * @param string $value
@@ -40,7 +40,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function addTextHeader($name, $value = null);
 
     /**
-     * Add a new ParameterizedHeader with $name, $value and $params.
+     * Add a New ParameterizedHeader with $name, $value and $params.
      *
      * @param string $name
      * @param string $value
@@ -49,7 +49,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function addParameterizedHeader($name, $value = null, $params = array());
 
     /**
-     * Add a new ID header for Message-ID or Content-ID.
+     * Add a New ID header for Message-ID or Content-ID.
      *
      * @param string       $name
      * @param string|array $ids
@@ -57,7 +57,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function addIdHeader($name, $ids = null);
 
     /**
-     * Add a new Path header with an address (path) in it.
+     * Add a New Path header with an address (path) in it.
      *
      * @param string $name
      * @param string $path
@@ -136,7 +136,7 @@ interface Swift_Mime_HeaderSet extends Swift_Mime_CharsetObserver
     public function removeAll($name);
 
     /**
-     * Create a new instance of this HeaderSet.
+     * Create a New instance of this HeaderSet.
      *
      * @return Swift_Mime_HeaderSet
      */

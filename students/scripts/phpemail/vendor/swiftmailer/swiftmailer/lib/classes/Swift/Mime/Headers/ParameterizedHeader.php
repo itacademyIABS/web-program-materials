@@ -37,7 +37,7 @@ class Swift_Mime_Headers_ParameterizedHeader extends Swift_Mime_Headers_Unstruct
     private $_params = array();
 
     /**
-     * Creates a new ParameterizedHeader with $name.
+     * Creates a New ParameterizedHeader with $name.
      *
      * @param string                   $name
      * @param Swift_Mime_HeaderEncoder $encoder

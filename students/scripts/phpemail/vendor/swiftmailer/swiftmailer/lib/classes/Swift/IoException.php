@@ -16,7 +16,7 @@
 class Swift_IoException extends Swift_SwiftException
 {
     /**
-     * Create a new IoException with $message.
+     * Create a New IoException with $message.
      *
      * @param string    $message
      * @param int       $code

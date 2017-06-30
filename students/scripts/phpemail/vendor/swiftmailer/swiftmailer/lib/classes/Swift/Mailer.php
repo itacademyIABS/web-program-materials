@@ -19,7 +19,7 @@ class Swift_Mailer
     private $_transport;
 
     /**
-     * Create a new Mailer using $transport for delivery.
+     * Create a New Mailer using $transport for delivery.
      *
      * @param Swift_Transport $transport
      */
@@ -29,7 +29,7 @@ class Swift_Mailer
     }
 
     /**
-     * Create a new Mailer instance.
+     * Create a New Mailer instance.
      *
      * @param Swift_Transport $transport
      *
@@ -41,7 +41,7 @@ class Swift_Mailer
     }
 
     /**
-     * Create a new class instance of one of the message services.
+     * Create a New class instance of one of the message services.
      *
      * For example 'mimepart' would create a 'message.mimepart' instance
      *

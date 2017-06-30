@@ -34,7 +34,7 @@ abstract class Swift_Transport_AbstractSmtpTransport implements Swift_Transport
     abstract protected function _getBufferParams();
 
     /**
-     * Creates a new EsmtpTransport using the given I/O buffer.
+     * Creates a New EsmtpTransport using the given I/O buffer.
      *
      * @param Swift_Transport_IoBuffer     $buf
      * @param Swift_Events_EventDispatcher $dispatcher
@@ -194,7 +194,7 @@ abstract class Swift_Transport_AbstractSmtpTransport implements Swift_Transport
             $this->_eventDispatcher->dispatchEvent($evt, 'sendPerformed');
         }
 
-        $message->generateId(); //Make sure a new Message ID is used
+        $message->generateId(); //Make sure a New Message ID is used
 
         return $sent;
     }

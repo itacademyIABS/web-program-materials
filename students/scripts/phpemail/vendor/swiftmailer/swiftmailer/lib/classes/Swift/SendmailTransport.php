@@ -16,7 +16,7 @@
 class Swift_SendmailTransport extends Swift_Transport_SendmailTransport
 {
     /**
-     * Create a new SendmailTransport, optionally using $command for sending.
+     * Create a New SendmailTransport, optionally using $command for sending.
      *
      * @param string $command
      */
@@ -32,7 +32,7 @@ class Swift_SendmailTransport extends Swift_Transport_SendmailTransport
     }
 
     /**
-     * Create a new SendmailTransport instance.
+     * Create a New SendmailTransport instance.
      *
      * @param string $command
      *

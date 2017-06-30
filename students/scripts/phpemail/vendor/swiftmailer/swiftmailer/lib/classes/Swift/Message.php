@@ -31,7 +31,7 @@ class Swift_Message extends Swift_Mime_SimpleMessage
     private $savedMessage = array();
 
     /**
-     * Create a new Message.
+     * Create a New Message.
      *
      * Details may be optionally passed into the constructor.
      *
@@ -61,7 +61,7 @@ class Swift_Message extends Swift_Mime_SimpleMessage
     }
 
     /**
-     * Create a new Message.
+     * Create a New Message.
      *
      * @param string $subject
      * @param string $body
@@ -110,7 +110,7 @@ class Swift_Message extends Swift_Mime_SimpleMessage
     }
 
     /**
-     * Attach a new signature handler to the message.
+     * Attach a New signature handler to the message.
      *
      * @param Swift_Signer $signer
      *

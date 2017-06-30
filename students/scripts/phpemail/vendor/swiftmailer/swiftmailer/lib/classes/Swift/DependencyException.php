@@ -16,7 +16,7 @@
 class Swift_DependencyException extends Swift_SwiftException
 {
     /**
-     * Create a new DependencyException with $message.
+     * Create a New DependencyException with $message.
      *
      * @param string $message
      */

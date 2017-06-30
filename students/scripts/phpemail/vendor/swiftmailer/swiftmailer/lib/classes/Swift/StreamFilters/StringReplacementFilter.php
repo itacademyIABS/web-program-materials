@@ -22,7 +22,7 @@ class Swift_StreamFilters_StringReplacementFilter implements Swift_StreamFilter
     private $_replace;
 
     /**
-     * Create a new StringReplacementFilter with $search and $replace.
+     * Create a New StringReplacementFilter with $search and $replace.
      *
      * @param string|array $search
      * @param string|array $replace

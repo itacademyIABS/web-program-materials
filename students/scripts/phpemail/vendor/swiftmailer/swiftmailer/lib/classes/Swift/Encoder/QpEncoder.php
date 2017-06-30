@@ -101,7 +101,7 @@ class Swift_Encoder_QpEncoder implements Swift_Encoder
     protected $_safeMap = array();
 
     /**
-     * Creates a new QpEncoder for the given CharacterStream.
+     * Creates a New QpEncoder for the given CharacterStream.
      *
      * @param Swift_CharacterStream $charStream to use for reading characters
      * @param Swift_StreamFilter    $filter     if input should be canonicalized

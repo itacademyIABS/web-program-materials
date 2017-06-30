@@ -16,7 +16,7 @@
 class Swift_MimePart extends Swift_Mime_MimePart
 {
     /**
-     * Create a new MimePart.
+     * Create a New MimePart.
      *
      * Details may be optionally passed into the constructor.
      *
@@ -44,7 +44,7 @@ class Swift_MimePart extends Swift_Mime_MimePart
     }
 
     /**
-     * Create a new MimePart.
+     * Create a New MimePart.
      *
      * @param string $body
      * @param string $contentType

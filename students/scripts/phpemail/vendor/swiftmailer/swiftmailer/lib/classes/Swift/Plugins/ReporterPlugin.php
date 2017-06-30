@@ -23,7 +23,7 @@ class Swift_Plugins_ReporterPlugin implements Swift_Events_SendListener
     private $_reporter;
 
     /**
-     * Create a new ReporterPlugin using $reporter.
+     * Create a New ReporterPlugin using $reporter.
      *
      * @param Swift_Plugins_Reporter $reporter
      */

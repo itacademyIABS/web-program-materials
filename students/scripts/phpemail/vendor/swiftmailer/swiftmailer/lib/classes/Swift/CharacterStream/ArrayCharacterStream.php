@@ -40,7 +40,7 @@ class Swift_CharacterStream_ArrayCharacterStream implements Swift_CharacterStrea
     private $_offset = 0;
 
     /**
-     * Create a new CharacterStream with the given $chars, if set.
+     * Create a New CharacterStream with the given $chars, if set.
      *
      * @param Swift_CharacterReaderFactory $factory for loading validators
      * @param string                       $charset used in the stream

@@ -16,7 +16,7 @@
 class Swift_Attachment extends Swift_Mime_Attachment
 {
     /**
-     * Create a new Attachment.
+     * Create a New Attachment.
      *
      * Details may be optionally provided to the constructor.
      *
@@ -40,7 +40,7 @@ class Swift_Attachment extends Swift_Mime_Attachment
     }
 
     /**
-     * Create a new Attachment.
+     * Create a New Attachment.
      *
      * @param string|Swift_OutputByteStream $data
      * @param string                        $filename
@@ -54,7 +54,7 @@ class Swift_Attachment extends Swift_Mime_Attachment
     }
 
     /**
-     * Create a new Attachment from a filesystem path.
+     * Create a New Attachment from a filesystem path.
      *
      * @param string $path
      * @param string $contentType optional

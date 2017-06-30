@@ -32,7 +32,7 @@ class Swift_Transport_SendmailTransport extends Swift_Transport_AbstractSmtpTran
         );
 
     /**
-     * Create a new SendmailTransport with $buf for I/O.
+     * Create a New SendmailTransport with $buf for I/O.
      *
      * @param Swift_Transport_IoBuffer     $buf
      * @param Swift_Events_EventDispatcher $dispatcher

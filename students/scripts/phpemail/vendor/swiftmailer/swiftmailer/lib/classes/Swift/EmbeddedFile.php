@@ -16,7 +16,7 @@
 class Swift_EmbeddedFile extends Swift_Mime_EmbeddedFile
 {
     /**
-     * Create a new EmbeddedFile.
+     * Create a New EmbeddedFile.
      *
      * Details may be optionally provided to the constructor.
      *
@@ -40,7 +40,7 @@ class Swift_EmbeddedFile extends Swift_Mime_EmbeddedFile
     }
 
     /**
-     * Create a new EmbeddedFile.
+     * Create a New EmbeddedFile.
      *
      * @param string|Swift_OutputByteStream $data
      * @param string                        $filename
@@ -54,7 +54,7 @@ class Swift_EmbeddedFile extends Swift_Mime_EmbeddedFile
     }
 
     /**
-     * Create a new EmbeddedFile from a filesystem path.
+     * Create a New EmbeddedFile from a filesystem path.
      *
      * @param string $path
      *
