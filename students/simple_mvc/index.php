@@ -2,19 +2,12 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-$classes = scandir("classes");
+require_once 'functions.php';
 
-foreach ($classes as $class) {
-    $path = "classes" . DIRECTORY_SEPARATOR . $class;
-    if (is_file($path)) {
-        require "$path";
-    }
-}
-$c = $_GET['c'];
-$a = $_GET['a'];
+$c = isset($_GET['c']) ? $_GET['c'] : 'main';
+$a = isset($_GET['a']) ? $_GET['a'] : 'index';
 
-
-$cName = ucfirst($c) . "Controller";
+$cName = "\\IABS\\MVC\\Controller\\". ucfirst($c);
 
 $controller = new $cName;
 $controller->$a();

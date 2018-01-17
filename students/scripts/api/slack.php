@@ -5,8 +5,8 @@ error_reporting(E_ALL);
 $url = "https://hooks.slack.com/services/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";
 $data = array(
 	'channel' => '#курилка'
-	, 'username' => 'testbot'
-        , 'text' => 'test message'
+	, 'username' => 'nwp2bot'
+        , 'text' => 'Привет #nwp2'
 );
 $post_data = "payload=".json_encode($data);
 $ch = curl_init($url);;                                                                      

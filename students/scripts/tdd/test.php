@@ -10,6 +10,7 @@ require './functions.php';
 assert(get_hour("18:00") == 18);
 assert(get_hour("20:00") == 20);
 
+assert(get_hour("21:00") == 21);
 // fail
 //assert(get_hour("21:00") == 20);
 
