@@ -7,7 +7,6 @@ define('VAR_PATH', 'var');
 define('ARTICLE_DELIMITER', '%%%X%%%');
         
      
-//TODO: вынести в отдельную функцию
 function get_articles_file() {
     $path = SITE_PATH . DIRECTORY_SEPARATOR;
     $articles = scandir($path);
