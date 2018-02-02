@@ -1,20 +1,20 @@
 <?php 
 require_once 'functions.php'; 
 require_once 'visitors_log.php';
-$categories = get_categories();
+$articles = get_articles();
 ?>
 <!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Крутой сайт</title>
+        <title>Новости</title>
     </head>
     <body>
-        <h1>Главная</h1>
+        <h1>Новости</h1>
         <ul>
-            <?php foreach($categories as $category) : ?>
-            <li><a href="category.php?name=<?php echo $category; ?>"><?php echo $category; ?></a></li>
-            <?php endforeach; ?>    
+            <?php foreach ($articles as $article) : ?>
+                <li><a href="article.php?name=<?php echo $article['file']; ?>"><?php echo $article['title']; ?></a></li>
+            <?php endforeach; ?>
         </ul>
     </body>
 </html>

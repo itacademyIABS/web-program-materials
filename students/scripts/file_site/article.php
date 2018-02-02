@@ -2,8 +2,7 @@
 require_once 'functions.php';
 require_once 'visitors_log.php';
 $articleFile = $_GET['name']; 
-$category = $_GET['category'];
-$article = get_article($category, $articleFile);
+$article = get_article($articleFile);
 ?>
 
 <!doctype html>
