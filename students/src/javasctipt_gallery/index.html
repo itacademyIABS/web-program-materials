@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		.gallery {
+			width: 800px;
+			margin: 0 auto; 
+			background-color: gray;
+			text-align: center;
+			padding: 20px;
+		}
+		#main-img {
+			max-width: 740px;
+		}
+	</style>
+</head>
+<body>
+	<div class="gallery">
+		<img id="main-img" src="gallery/1.jpg" alt="">
+		<div>
+			<button onclick="prev();">prev</button>
+			<button onclick="next();">next</button>			
+		</div>
+	</div>
+</body>
+</html>
